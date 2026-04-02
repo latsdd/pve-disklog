@@ -1,6 +1,7 @@
 # PVE Disk Monitor (pve-disklog)
 
 Proxmox VE 磁盘监控工具，提供磁盘插拔检测、I/O 监控、容量显示、LED 定位灯控制，并通过 Web 注入集成到 PVE 管理界面。
+识别定位功能sas/sata依赖sas扩展卡，未考虑主板sata的情况，u2定位依赖带有pcie扩展芯片的扩展卡（PCIe Switch Card），未考虑主板直出。
 
 ## 功能概览
 
